@@ -1,0 +1,30 @@
+# Node & Build
+node_modules/
+dist/
+build/
+
+# Python & Environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# OS & Editor files
+.DS_Store
+.vscode/
+.idea/
+extracted_assets/
+html_assets/
+assets_extracted/

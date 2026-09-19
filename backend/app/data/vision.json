@@ -1,0 +1,30 @@
+[
+  {
+    "id": "rgb",
+    "label": "RGB Daylight",
+    "description": "High-resolution standard spectrum optical feed with HDR.",
+    "detections": [
+      { "label": "WORKER", "confidence": 91.4, "x": 48, "y": 29, "width": 15, "height": 26, "color": "#65e2e5" },
+      { "label": "HELMET", "confidence": 87.2, "x": 50, "y": 30, "width": 7, "height": 8, "color": "#ffbd32" },
+      { "label": "OBSTRUCTION", "confidence": 84.6, "x": 68, "y": 39, "width": 10, "height": 18, "color": "#ffbd32" }
+    ]
+  },
+  {
+    "id": "night",
+    "label": "Night Vision (IR)",
+    "description": "850nm active infrared illuminator with zero-light perception.",
+    "detections": [
+      { "label": "WORKER 01", "confidence": 94.8, "x": 48, "y": 29, "width": 15, "height": 26, "color": "#65e2e5" },
+      { "label": "EQUIPMENT", "confidence": 89.1, "x": 68, "y": 39, "width": 10, "height": 18, "color": "#ffd75a" }
+    ]
+  },
+  {
+    "id": "thermal",
+    "label": "FLIR Thermal LWIR",
+    "description": "Long-wave infrared body-heat detection through smoke and dust.",
+    "detections": [
+      { "label": "HEAT SIGNATURE (WORKER)", "confidence": 96.5, "x": 48, "y": 29, "width": 15, "height": 26, "color": "#ef6c22" },
+      { "label": "HOT PIPE OBSTRUCTION", "confidence": 82.0, "x": 68, "y": 39, "width": 10, "height": 18, "color": "#e34a38" }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "worker-01",
+    "name": "WORKER 01",
+    "tunnel": "B-04",
+    "distance": 37,
+    "confidence": 91.4,
+    "status": "DETECTED",
+    "signalStrength": 88,
+    "xPct": 72,
+    "yPct": 31
+  },
+  {
+    "id": "worker-02",
+    "name": "WORKER 02",
+    "tunnel": "C-02",
+    "distance": 64,
+    "confidence": 86.7,
+    "status": "TRACKING",
+    "signalStrength": 72,
+    "xPct": 23,
+    "yPct": 70
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "ch4": {
+    "name": "CH4 Methane",
+    "key": "ch4",
+    "value": 1.8,
+    "unit": "%",
+    "status": "SAFE",
+    "history": [0.8, 1.0, 1.2, 1.5, 1.4, 1.7, 1.8],
+    "description": "Explosive gas concentration within safe threshold (< 2.0%)."
+  },
+  "co": {
+    "name": "CO Carbon Monoxide",
+    "key": "co",
+    "value": 34.2,
+    "unit": "PPM",
+    "status": "WARNING",
+    "history": [12, 15, 22, 28, 31, 33, 34.2],
+    "description": "Toxic combustion byproduct elevated in Tunnel B-04."
+  },
+  "temperature": {
+    "name": "Temperature",
+    "key": "temperature",
+    "value": 32.4,
+    "unit": "°C",
+    "status": "SAFE",
+    "history": [28, 29, 30, 31, 31.5, 32, 32.4],
+    "description": "Ambient geothermal heat level in working face."
+  },
+  "humidity": {
+    "name": "Relative Humidity",
+    "key": "humidity",
+    "value": 78.5,
+    "unit": "%",
+    "status": "SAFE",
+    "history": [70, 72, 74, 75, 76, 78, 78.5],
+    "description": "Moisture content indicating stable drainage."
+  },
+  "vibration": {
+    "name": "Seismic Vibration",
+    "key": "vibration",
+    "value": 0.14,
+    "unit": "g",
+    "status": "SAFE",
+    "history": [0.05, 0.08, 0.11, 0.09, 0.12, 0.13, 0.14],
+    "description": "Strata stability monitoring via piezoelectric accelerometer."
+  }
+}
