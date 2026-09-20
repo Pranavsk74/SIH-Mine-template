@@ -11,7 +11,7 @@ import type {
   MissionStatus
 } from '../data/fallbackData';
 
-const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const BASE_URL = import.meta.env.VITE_API_URL || '';
 
 let isBackendAvailable = true;
 
